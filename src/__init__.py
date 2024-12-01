@@ -1,7 +1,7 @@
 import logging
 import datetime
 import os
-from tian_core.singleton import singleton
+from tian_core import singleton
 import sentry_sdk
 
 @singleton
